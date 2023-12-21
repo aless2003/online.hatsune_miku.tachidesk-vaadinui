@@ -1,32 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>online.hatsune_miku.tachidesk-vaadinui</id>
-  <name>Tachidesk-VaadinUI</name>
-  <project_license>MPL-2.0</project_license>
-  <developer_name>aless2003</developer_name>
-  <summary>Desktop client for Tachidesk</summary>
-   <description>
-    Tachidesk-VaadinUI is a desktop client for Tachidesk, a web-based manga reader.
-  </description>
-  <launchable type="desktop-id">online.hatsune_miku.tachidesk-vaadinui.desktop</launchable>
-  <content_rating type="oars-1.1"/>
-  <metadata_license>CC0-1.0</metadata_license>
-  <url type="bugtracker">https://github.com/Suwayomi/Tachidesk-VaadinUI/issues</url>
-  <screenshots>
-  <!-- Todo -->
-  </screenshots>
-  <releases>
-    <release version="1.0.2" date="2023-12-03">
-      <description>
-        Reader now should be a bit more performant
-        <ul>
-            <li>style: format code with Google Java Format by @deepsource-autofix in</li>
-            <li>Update README.md by @aless2003 in</li>
-            <li>Reader optimization by @aless2003 in</li>
-            <li>style: format code with Google Java Format by @deepsource-autofix in</li>
-            <li>Update build.gradle by @aless2003 in</li>
-        </ul>
-      </description>
-    </release>
-  </releases>
+    <id>online.hatsune_miku.tachidesk-vaadinui</id>
+    <name>Tachidesk-VaadinUI</name>
+    <project_license>MPL-2.0</project_license>
+    <developer_name>aless2003</developer_name>
+    <summary>Desktop client for Tachidesk</summary>
+    <description>
+        Tachidesk-VaadinUI is a desktop client for Tachidesk, a web-based manga reader.
+    </description>
+    <launchable type="desktop-id">online.hatsune_miku.tachidesk-vaadinui.desktop</launchable>
+    <content_rating type="oars-1.1"/>
+    <metadata_license>CC0-1.0</metadata_license>
+    <url type="bugtracker">https://github.com/Suwayomi/Tachidesk-VaadinUI/issues</url>
+    <screenshots>
+        <screenshot type="default">
+            <caption>Homepage</caption>
+            <image type="source" width="1600" height="900">
+                https://github.com/Suwayomi/Tachidesk-VaadinUI/blob/master/screenshots/HomeView.jpg?raw=true
+            </image>
+        </screenshot>
+        <screenshot>
+            <caption>Extensions View</caption>
+            <image type="source" width="1600" height="900">
+                https://github.com/Suwayomi/Tachidesk-VaadinUI/blob/master/screenshots/ExtensionView.jpeg?raw=true
+            </image>
+        </screenshot>
+        <screenshot>
+            <caption>Search View</caption>
+            <image type="source" width="1600" height="900">
+                https://github.com/Suwayomi/Tachidesk-VaadinUI/blob/master/screenshots/SearchView.jpg?raw=true
+            </image>
+        </screenshot>
+        <screenshot>
+            <caption>Sources View</caption>
+            <image type="source" width="1600" height="900">
+                https://github.com/Suwayomi/Tachidesk-VaadinUI/blob/master/screenshots/SourcesView.jpeg?raw=true
+            </image>
+        </screenshot>
+    </screenshots>
+    <releases>
+        <release version="1.0.3" date="2023-12-06">
+            <description>
+                Fixes an issue where the Client might not start correctly, because of an invalid Server response
+                <ul>
+                    <li>Refine server connection check route by @aless2003</li>
+                    <li>bump version by @aless2003</li>
+                    <li>style: format code with Google Java Format by @deepsource-autofix[bot]</li>
+                    <li>Merge pull request #84 from Suwayomi/start-error by @aless2003</li>
+                </ul>
+            </description>
+        </release>
+    </releases>
 </component>
