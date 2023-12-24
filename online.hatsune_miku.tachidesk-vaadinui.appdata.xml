@@ -6,12 +6,15 @@
     <developer_name>aless2003</developer_name>
     <summary>Desktop client for Tachidesk</summary>
     <description>
-        Tachidesk-VaadinUI is a desktop client for Tachidesk, a web-based manga reader.
+        <p>
+            Tachidesk-VaadinUI is a UI for the Tachidesk Server. It is written in Java and uses Vaadin as UI framework.
+        </p>
     </description>
     <launchable type="desktop-id">online.hatsune_miku.tachidesk-vaadinui.desktop</launchable>
     <content_rating type="oars-1.1"/>
     <metadata_license>CC0-1.0</metadata_license>
     <url type="bugtracker">https://github.com/Suwayomi/Tachidesk-VaadinUI/issues</url>
+    <url type="homepage">https://github.com/Suwayomi/Tachidesk-VaadinUI</url>
     <screenshots>
         <screenshot type="default">
             <caption>Homepage</caption>
